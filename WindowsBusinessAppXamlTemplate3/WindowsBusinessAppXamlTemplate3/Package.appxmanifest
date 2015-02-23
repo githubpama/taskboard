@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="b4f82037-ba83-4e20-a995-b941640b1f97" Publisher="CN=Alex" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>WindowsBusinessAppXamlTemplate3</DisplayName>
+    <PublisherDisplayName>Patrick</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="WindowsBusinessAppXamlTemplate3.App">
+      <m2:VisualElements DisplayName="WindowsBusinessAppXamlTemplate3" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="WindowsBusinessAppXamlTemplate3" ForegroundText="light" BackgroundColor="#464646">
+        <m2:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#6491A1" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>

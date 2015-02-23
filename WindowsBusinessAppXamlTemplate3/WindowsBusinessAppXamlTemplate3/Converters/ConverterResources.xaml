@@ -1,0 +1,15 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WindowsBusinessAppXamlTemplate3.Converters"
+    xmlns:toolkit="using:WinRTXamlToolkit.Converters">
+
+    <toolkit:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    <toolkit:BooleanToVisibilityConverter IsInversed="True" x:Key="InverseBooleanToVisibilityConverter" />
+    <!--<common:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+    <common:NotNullToVisibilityConverter x:Key="NotNullToVisibilityConverter" />
+    <common:NotNullToVisibilityConverter IsInversed="True" x:Key="InverseNotNullToVisibilityConverter" />
+    <common:EmptyListToVisibilityConverter x:Key="EmptyListToVisibilityConverter" />
+    <common:InverseEmptyListToVisibilityConverter x:Key="InverseEmptyListToVisibilityConverter" />-->
+
+</ResourceDictionary>
